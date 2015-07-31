@@ -27,14 +27,16 @@ gem 'geokit-rails', '~> 2.0.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem "jbuilder", "~> 1.5.2"
 
-# Performance measuring
-# gem 'rack-mini-profiler', '~> 0.1.31'
+# Temporary measure for handling ENV due to not having control over deploy process.
+gem 'figaro'
 
 group :test do
   gem "capybara", "~> 2.1.0"
   gem "simplecov", "~> 0.8.1", :require => false
   gem 'minitest-spec-rails', '~> 5.0.4'
   gem 'rake'
+  gem 'vcr'
+  gem 'webmock'
 end
 
 # This group is loaded in test and dev enviroments
