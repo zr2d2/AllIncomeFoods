@@ -1,7 +1,8 @@
 source 'http://rubygems.org'
 ruby "1.9.3"
 
-gem 'rails', '~> 4.1.4'
+gem 'rails', '~> 4.2.3'
+
 
 # DB's
 gem 'pg', '~> 0.17.0'
@@ -9,7 +10,7 @@ gem 'pg', '~> 0.17.0'
 # Assets
 gem 'sass-rails', '~> 4.0.1'
 gem 'jquery-rails', '~> 3.0.4'
-gem 'jquery_mobile_rails', '~> 1.3.2'
+gem 'jquery_mobile_rails', '~> 1.4.5'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '~> 2.3.1'
@@ -33,7 +34,7 @@ gem 'figaro'
 group :test do
   gem "capybara", "~> 2.1.0"
   gem "simplecov", "~> 0.8.1", :require => false
-  gem 'minitest-spec-rails', '~> 5.0.4'
+  gem 'minitest-spec-rails', '~> 5.2.2'
   gem 'rake'
   gem 'vcr'
   gem 'webmock'
